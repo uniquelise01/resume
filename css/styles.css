@@ -15,32 +15,29 @@ p, a {
     font-family: 'Source Sans Pro', Helvetica, sans-serif;
 }
 
+/* Menu */
 nav {
-    background-color: #edf6f9;
+    background-color: rgba(255, 255, 255, 0.877);
     position: fixed;
+    top: 0;
 }
 
 nav a {
-    color: black;
+    color: #443742;
     text-decoration: none;
     font-size: 18pt;
     display: none;
-    text-align: center;
-    padding: 15px;
-}
-
-nav a:hover {
-    background-color: #006d77;
-    color: white;
-    transition: 0.2s;
+    text-align: right;
+    padding: 20px 30px;
 }
 
 .active {
-    background-color: #83c5be;
+    color: #e29578;
 }
 
 #menu {
-    display: block;
+    display: inline-block;
+    background-image: linear-gradient(to right, #006d77 , #83c5be); 
 }
 
 #menu img {
@@ -50,3 +47,167 @@ nav a:hover {
 .responsive a {
     display: block;
 }
+
+/* Profile and Name */
+#profile-box {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 150px auto 0 auto;
+}
+
+#profile {
+    display: block;
+    width: 100%;
+}
+
+#home-name {
+    text-align: center;
+    margin-bottom: 150px;
+    color: #443742;
+}
+
+#home-name h1 {
+    font-size: 50pt;
+    margin-bottom: 0;
+}
+
+#home-name h2 {
+    font-family: 'Source Sans Pro', Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 20pt;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+/* About Me */
+#about-me {
+    background-color: #006d77;
+    color: #edf6f9;
+    padding: 80px 40px 120px 40px;
+}
+
+#about-me h2 {
+    font-size: 40pt;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+
+#about-me p {
+    font-weight: 300;
+}
+
+/* Dreams and Goals */
+#dreams-goals {
+    background-color: white;
+    color: #443742;
+    padding: 80px 40px 120px 40px;
+}
+
+#dreams-goals h2 {
+    font-size: 40pt;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    line-height: 1.2;
+}
+
+#dreams-goals p {
+    font-weight: 400;
+}
+
+/* Interests */
+#interests {
+    background-color: #83c5be;
+    color: #443742;
+    padding: 80px 40px 120px 40px;
+}
+
+#interests h2 {
+    font-size: 40pt;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+
+#interests p {
+    font-weight: 400;
+}
+
+/* This Site */
+#site-info {
+    background-color: #443742;
+    color: white;
+    padding: 80px 40px 120px 40px;
+}
+
+#site-info h2 {
+    font-size: 40pt;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+
+#site-info p {
+    font-weight: 300;
+}
+
+/* Buttons */
+#buttons {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 80px auto;
+    text-align: center;
+}
+
+#buttons a {
+    text-decoration: none;
+    color: white;
+    min-width: 100px;
+    padding: 25px;
+    font-size: 18pt;
+}
+
+#ex-button {
+    background-image: linear-gradient(to bottom right, #E29578 , #CA552B);
+}
+
+#portfolio-button {
+    background-image: linear-gradient(to bottom right, #006D77 , #83C5BE);
+}
+
+/* Footer */
+footer {
+    background-color: #443742;
+    color: white;
+    padding: 40px;    
+    text-align: center;
+}
+
+#social {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    margin: 0 auto 30px auto;
+}
+
+#social img {
+    width: 50px;
+}
+
+.copyright {
+    font-size: 12pt;
+}
+
+footer a {
+    color: white;
+}
+
+.credits {
+    font-size: 8pt;
+    margin: 40px auto auto auto;
+}
+
+/* nav a:hover {
+    background-color: #006d77;
+    color: white;
+    transition: 0.2s;
+} */

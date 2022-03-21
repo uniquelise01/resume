@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home | Elise Mickle Résumé</title>
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -21,7 +22,9 @@
     </header>
 
     <main>
-        <img src="./images/pexels-alex-andrews-821736.jpg" alt="Elise Mickle profile picture">
+        <div id="profile-box">
+            <img id="profile" src="./images/pexels-alex-andrews-821736.jpg" alt="Elise Mickle profile picture">
+        </div>
         <div id="home-name">
             <h1>Elise Mickle</h1>
             <h2>Web Designer</h2>
@@ -30,37 +33,45 @@
         <div id="home-grid">
             <div id="about-me">
                 <h2>About Me</h2>
-                <p>Text text.</p>
+                <p>I don't believe in soul mates. Why? Because I don't believe that something (or someone) can ever match our expectations perfectly. Rather, I believe in love as a verb. <strong>I believe that all things worthwhile take effort.</strong><br><br>My name is Elise Mickle. I'm from sunny Arizona where daylight savings (blessedly) doesn't exist, but I'm currently living in Idaho studying Web Design and Development at Brigham Young University, Idaho. I'm twenty years old, a proud ginger, wife of a handsome computer scientist, and a hard worker. Call me a people pleaser, but I just really like being as nice as possible. The world needs more kindness.<br><br>I love psychology. I love art. I love a lot of things, actually, but you can read more about those under my <em>Interests</em> section. And if you're wondering: <strong>yes, I made this website myself</strong>, all from scratch (with plenty of help from the internet, of course). You can read more about how I designed this site further down the page, under the <em>This Site</em> section.</p>
             </div>
 
             <div id="dreams-goals">
                 <h2>Dreams & Goals</h2>
-                <p>Text text.</p>
+                <p>I don't think I could ever spend the rest of my life only coding websites. I've got to dabble in the arts, experiement with UX, create a little graphic design, and always keep learning. I'll go wherever the wind may take me, be it a developer, designer, artist, frontend, backend, and everything in between. I don't mind much whether I'm an associate or a CEO, as long as I love the work I do (which I have, so far!).<br><br>My ultimate goal in life is to be a mom, a career that far too many people frown upon. <strong>My ideal life situation? Raising a bunch of littles with a thriving freelance business on the side, offering web-related services to clients all across the country.</strong> It might take a little pixie dust, but I feel confident in my abilities, and a supportive family doesn't hurt!<br><br>But beyond my career, I've always dreamed of traveling Europe and Oceana. A published book or two would be nice, along with a very expansive library and a kitchen cubboard full of mugs (my favorite souvenir).</p>
             </div>
 
             <div id="interests">
                 <h2>Interests</h2>
-                <p>Text text.</p>
+                <p>I never struggled trying to decide what to study in school because I was interested in <em>too</em> many things. <strong>I've always had a sweet spot for the arts;</strong> I've played piano since I was seven and took vocal lessons all through high school (I qualified for the State Choir twice!). I'm an avid reader and I love to write, to the point that I considered studying English or creative writing in school. But a psychology class my senior year led me to pursue a psych degree instead.<br><br>But my dad was always a fantastic artist, and he saw potential in me. He recommended I try out something in web or graphic design, so I took an intro class for both my first semester. <strong>And you know what? I <em>loved</em> it. </strong>I took more classes, declared myself a web design minor. A year or so later I was loving it so much that I said, "What the heck, why don't I just study this?" So I did. And if my college didn't have a 140 credit limit I would take every class they had under the subject.<br><br>In my leisure, I enjoy playing ukulele, learning French, knitting, writing stories, and playing Minecraft. But there's plenty more I want to learn how to do, and not enough time for any of it!</p>
+            </div>
+
+            <div id="site-info">
+                <h2>This Site</h2>
+                <p>Yes, I designed this site myself, entirely from scratch. Did I get lots of help from the internet? Heck yeah. But I didn't want anything to be copied and pasted. All the work hear is my own, with icons and images credited in the footer.<br><br><strong>The website is built entirely with HTML, CSS, and javascript</strong>, my three strongest languages. I built all the CSS for mobile first, using media queries for medium and large viewports. I'm fascinated by CSS animations, which you might notice across all of my pages, but I'm still quite an amateur with them. Most of the coding I used for the transforms, transitions, etc. were based off internet examples.<br><br>A link to the original site plan is included in the footer, however you may notice significant differences between the wireframes and the finished site. I anticipated this, but didn't have the motivation to go back and edit the wireframes once the site was complete. You can be the judge on whether or not my final product was an improvement form the original design.<br><br>For more of my web design and development projects, visit my portfolio page.</p>
             </div>
         </div>
 
         <div id="buttons">
-            <a href="experience.html">Experience</a>
-            <a href="portfolio.html">Portfolio</a>
+            <a href="experience.html" id="ex-button">Experience</a>
+            <a href="portfolio.html" id="portfolio-button">Portfolio</a>
         </div>
 
     </main>
 
     <footer>
         <div id="social">
-            <img src="images/behance.png" alt="behance link">
-            <img src="images/facebook.png" alt="facebook link">
-            <img src="images/linkedin.png" alt="linkedin">
+            <a href="https://www.behance.net/elisehansen" target="blank_"><img src="images/behance.png" alt="behance link"></a>
+            <a href="https://www.facebook.com/elisehansen2001/" target="blank_"><img src="images/facebook.png" alt="facebook link"></a>
+            <a href="https://www.linkedin.com/in/elise-hansen-8b3422184/" target="blank_"><img src="images/linkedin.png" alt="linkedin"></a>
         </div>
     
-        <p>Elise Mickle 2022</p>
-        <a href="https://www.flaticon.com/free-icons/">Menu icon created by azmianshori</a>
-        <a href="https://www.flaticon.com/free-icons/">Social Media icons created by Fathema Khanom</a>
+        <p class="copyright">Elise Mickle &copy; 2022</p>
+        <a href="site-plan.html">Site Plan</a>
+        <div class="credits">
+            <p>Menu icon created by azmianshori</p>
+            <p>Social Media icons created by Fathema Khanom</p>
+        </div>
     </footer>
 
 </div>
