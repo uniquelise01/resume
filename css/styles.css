@@ -19,6 +19,7 @@ p, a {
 nav {
     background-color: rgba(255, 255, 255, 0.877);
     position: fixed;
+    width: 100%;
     top: 0;
 }
 
@@ -36,12 +37,12 @@ nav a {
 }
 
 #menu {
-    display: inline-block;
-    background-image: linear-gradient(to right, #006d77 , #83c5be); 
+    display: block;
+    background-image: linear-gradient(to right, #006d77 , #83c5be);
 }
 
 #menu img {
-    width: 7%;
+    width: 50px;
 }
 
 .responsive a {
@@ -69,7 +70,7 @@ nav a {
 }
 
 #home-name h1 {
-    font-size: 50pt;
+    font-size: 40pt;
     margin-bottom: 0;
 }
 
@@ -90,12 +91,12 @@ nav a {
 
 #about-me h2 {
     font-size: 40pt;
-    margin-left: 40px;
     margin-bottom: 40px;
 }
 
 #about-me p {
     font-weight: 300;
+    font-size: 15pt;
 }
 
 /* Dreams and Goals */
@@ -107,13 +108,13 @@ nav a {
 
 #dreams-goals h2 {
     font-size: 40pt;
-    margin-left: 40px;
     margin-bottom: 40px;
     line-height: 1.2;
 }
 
 #dreams-goals p {
     font-weight: 400;
+    font-size: 15pt;
 }
 
 /* Interests */
@@ -125,12 +126,12 @@ nav a {
 
 #interests h2 {
     font-size: 40pt;
-    margin-left: 40px;
     margin-bottom: 40px;
 }
 
 #interests p {
     font-weight: 400;
+    font-size: 15pt;
 }
 
 /* This Site */
@@ -142,12 +143,12 @@ nav a {
 
 #site-info h2 {
     font-size: 40pt;
-    margin-left: 40px;
     margin-bottom: 40px;
 }
 
 #site-info p {
     font-weight: 300;
+    font-size: 15pt;
 }
 
 /* Buttons */
