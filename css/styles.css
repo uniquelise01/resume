@@ -45,8 +45,13 @@ nav a {
     width: 50px;
 }
 
+.responsive {
+    bottom: 0;
+}
+
 .responsive a {
     display: block;
+    transition: all 500ms ease;
 }
 
 /* Profile and Name */
