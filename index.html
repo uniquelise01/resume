@@ -12,8 +12,12 @@
 <div id="content">
 
     <header>
-        <nav class="navigation">
-            <a href="#" id="menu"><img src="images/menu.png" alt="hamburger menu button"></a>
+        <div id="menu">
+            <a href="javascript:void(0)" id="menu-btn" onclick="openNav()"><img src="images/menu.png" alt="hamburger menu button"></a>
+            <a href="javascript:void(0)" id="closebtn" onclick="closeNav()"><img src="images/close.png" alt="close menu button"></a>
+        </div>
+        
+        <nav id="navigation">
             <a href="index.html" class="active">Home</a>
             <a href="experience.html">Experience</a>
             <a href="portfolio.html">Portfolio</a>
@@ -22,7 +26,28 @@
     </header>
 
     <main>
-        <div id="profile-box">
+        <div id="hello-box">
+            <h1>hello.</h1>
+        </div>
+
+        <div id="intro">
+            <h1>I'm Elise Mickle.</h1>
+            <h2>web designer and developer</h2>
+        </div>
+
+        <div id="parallax-img">
+            <img src="images/scribble.png" alt="arrow" id="second-arrow">
+            <img src="images/up-arrow.png" alt="arrow" id="first-arrow">
+            <div id="thats-me">
+                <h2>My husband</h2>
+                <h2>Me</h2>
+            </div>
+        </div>
+
+        
+
+
+        <!-- <div id="profile-box">
             <img id="profile" src="./images/pexels-alex-andrews-821736.jpg" alt="Elise Mickle profile picture">
         </div>
         <div id="home-name">
@@ -55,7 +80,7 @@
         <div id="buttons">
             <a href="experience.html" id="ex-button">Experience</a>
             <a href="portfolio.html" id="portfolio-button">Portfolio</a>
-        </div>
+        </div> -->
 
     </main>
 
@@ -69,7 +94,8 @@
         <p class="copyright">Elise Mickle &copy; 2022</p>
         <a href="site-plan.html">View my Site Plan</a>
         <div class="credits">
-            <p>Menu icon created by azmianshori</p>
+            <p>Menu icon created by Pixel perfect</p>
+            <p>Arrow icon created by Freepik & rang</p>
             <p>Social Media icons created by Fathema Khanom</p>
         </div>
     </footer>

@@ -1,12 +1,14 @@
 
 // Hamburger Menu //
 
-const hambutton = document.querySelector('#menu');
-const mainnav = document.querySelector('.navigation')
+function openNav() {
+    document.getElementById('navigation').style.width = "100%";
+    document.getElementById('closebtn').style.display = "block";
+    document.getElementById('menu-btn').style.display = "none";
+}
 
-hambutton.addEventListener('click', () => {
-    console.log('click');
-    mainnav.classList.toggle('responsive')}, false);
-
-window.onresize = () => {if (window.innerWidth > 500)
-mainnav.classList.remove('responsive')};
+function closeNav() {
+    document.getElementById('navigation').style.width = "0";
+    document.getElementById('closebtn').style.display = "none";
+    document.getElementById('menu-btn').style.display = "block";
+}
