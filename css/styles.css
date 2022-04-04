@@ -131,14 +131,14 @@ nav a {
     position: relative;
     display: block;
     margin: 0 0 0 auto;
-    top: 230px;
+    top: 100px;
     right: 9%;
 }
 
 #second-arrow {
     position: relative;
     display: block;
-    top: 430px;
+    top: 290px;
     left: 10%;
 }
 
@@ -147,7 +147,7 @@ nav a {
     display: flex;
     justify-content: space-between;
     margin: 0 15%;
-    padding-top: 200px;
+    padding-top: 50px;
     text-align: center;
     font-size: 18pt;
 }
@@ -336,6 +336,18 @@ footer a {
     #parallax-img {
         height: 800px;
         background-attachment: fixed;
+    }
+
+    #first-arrow {
+        top: 230px;
+    }
+    
+    #second-arrow {
+        top: 430px;
+    }
+    
+    #thats-me {
+        padding-top: 200px;
     }
 
 }
