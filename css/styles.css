@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Just+Another+Hand&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&family=Yeseva+One&display=swap');
 
+/****** Mobile ******/
 
-/**** Mobile ****/
-
+/*** HOME ***/
 body {
     margin: 0;
+    box-sizing: border-box;
 }
 
 h1 {
@@ -83,7 +84,7 @@ nav a {
     color: white;
 }
 
-#hello-box h1 {
+#hello-box h1, #xp-title-box h1 {
     padding-top: 300px;
     text-align: center;
     font-size: 36pt;
@@ -114,14 +115,14 @@ nav a {
 
 /* Parallax image */
 #parallax-img {
-    background-image: url("../images/engagements-123-min.jpg");
+    background-image: url("../images/engagement-900w.webp");
     height: 600px;
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-#parallax-img img {
+#arrows img {
     width: 60px;
 }
 
@@ -332,6 +333,53 @@ footer a {
 
 
 
+/*** EXPERIENCE ***/
+
+#xp-title-box {
+    background-color: #006d77;
+    margin-top: -40px;
+    margin-bottom: -40px;
+    width: 100%;
+    height: 800px;
+    color: white;
+}
+
+.xp-img {
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+
+.xp-img img{
+    width: 100%;
+    height: auto;
+    position: relative;
+    bottom: 0;
+}
+
+.xp-box {
+    max-width: 100%;
+    background-color: lightgray;
+    margin-top: 60px;
+}
+
+.xp-box h2 {
+    font-size: 64pt;
+    font-weight: normal;
+    margin: 0;
+    color: white;
+}
+
+.xp {
+    max-width: 70%;
+    margin: 0 auto;
+    font-size: 15pt;
+    padding: 40px;
+}
+
+.xp-list {
+    padding-left: 10px;
+}
 
 /*** Medium ***/
 @media screen and (min-width: 501px) {
@@ -349,7 +397,7 @@ footer a {
         background-attachment: fixed;
     }
 
-    #parallax-img img {
+    #arrows img {
         width: 80px;
     }
 
@@ -426,8 +474,14 @@ footer a {
 
 
     /* Parallax */
-    #parallax-img img {
-        width: 90px;
+    #parallax-img {
+        background-image: fixed;
+        background-image: url("../images/engagement-1920w.webp");
+    }
+
+    #engagement-parallax {
+        display: block;
+        width: 100%;
     }
 
     #arrows {
