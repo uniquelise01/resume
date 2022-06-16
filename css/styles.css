@@ -290,6 +290,31 @@ nav a {
 }
 
 
+/* Buttons */
+.home-btn {
+    display: block;
+    padding: 30px;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none;
+    font-size: 24pt;
+    color: white;
+    /* opacity: 0.5; */
+}
+
+#experience-btn {
+    background-color: #006d77;
+}
+
+#portfolio-btn {
+    background-color: #1f9aa5;
+}
+
+#contact-btn {
+    background-color: #83c5be;
+}
+
+
 /* Footer */
 footer {
     background-color: white;
@@ -475,7 +500,7 @@ footer a {
 
     /* Parallax */
     #parallax-img {
-        background-image: fixed;
+        background-attachment: fixed;
         background-image: url("../images/engagement-1920w.webp");
     }
 
